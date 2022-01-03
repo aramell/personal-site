@@ -1,21 +1,15 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.andrewramell.dev",
     title: "andrews-personal-site",
   },
   plugins: [
     "gatsby-plugin-image",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "",
-      },
-    },
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/nz.jpg",
       },
     },
     "gatsby-plugin-sharp",
@@ -29,4 +23,4 @@ module.exports = {
       __key: "images",
     },
   ],
-};
+}
