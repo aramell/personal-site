@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/NZ.jpg",
+        icon: "src/images/NZ.png",
       },
     },
     "gatsby-plugin-sharp",

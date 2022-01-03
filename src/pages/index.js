@@ -11,9 +11,9 @@ const IndexPage = () => {
         <div class="text-white p-8 flex justify-between">
           <p class="max-w-sm">
             Hi there! My name is Andrew and i'm a front end developer that
-            previously worked in Finacial Services. I am always looking to learn
-            something new or help new developers get started in technology.
-            Please{" "}
+            previously worked in Financial Services. I am always looking to
+            learn something new or help new developers get started in
+            technology. Please{" "}
             <Link
               class="no-underline"
               rel="noreferrer"
@@ -25,7 +25,7 @@ const IndexPage = () => {
             !
           </p>
           <StaticImage
-            src="../images/andrew.jpg"
+            src="../images/andrew.png"
             alt="Andrew professional photo"
             width={200}
             height={200}
