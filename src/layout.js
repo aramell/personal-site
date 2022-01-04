@@ -8,7 +8,7 @@ export default function Layout({ styles, children }) {
       <Header />
       <div class="bg-gray-900" />
       <div
-        class={`max-w-2xl min-h-screen m-auto bg-gray-800 justify-center rounded-lg my-9 shadow-xl
+        class={`max-w-2xl min-h-fit m-auto bg-gray-800 justify-center rounded-lg my-9 shadow-xl
         ${styles}`}
       >
         {children}
