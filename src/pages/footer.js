@@ -4,7 +4,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn"
 import EmailIcon from "@mui/icons-material/Email"
 
 const Footer = () => (
-  <footer class="p-2 flex justify-center h-12 bg-green-400 fixed bottom-0 w-full">
+  <footer className="p-2 flex justify-center h-12 bg-green-400 fixed bottom-0 w-full">
     <a
       href="https://www.instagram.com/ramell86/"
       target="_blank"
@@ -16,7 +16,7 @@ const Footer = () => (
       href="https://www.linkedin.com/in/andrewramell/"
       target="_blank"
       rel="noreferrer"
-      class="pl-2"
+      className="pl-2"
     >
       <LinkedInIcon />
     </a>
@@ -24,7 +24,7 @@ const Footer = () => (
       href="mailto:andrew.ramell@gmail.com"
       target="_blank"
       rel="noreferrer"
-      class="pl-2"
+      className="pl-2"
     >
       <EmailIcon />
     </a>

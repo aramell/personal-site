@@ -8,8 +8,8 @@ const IndexPage = () => {
     <main>
       <title>Andrew Ramell's Website</title>
       <Layout styles="max-w-none">
-        <div class="text-white p-8 flex justify-between flex-wrap">
-          <p class="max-w-sm pb-4">
+        <div className="text-white p-8 flex justify-between flex-wrap">
+          <p className="max-w-sm pb-4">
             Hi there! My name is Andrew and i'm a front end developer that
             previously worked in Financial Services. I am always looking to
             learn something new or help new developers get started in

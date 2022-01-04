@@ -12,7 +12,7 @@ import { Link } from "gatsby"
 // }
 
 const Header = () => (
-  <div class="font-sans p-2 m-auto flex justify-center space-x-5 h-12 hover:bg-gray-300">
+  <div className="font-sans p-2 m-auto flex justify-center space-x-5 h-12 hover:bg-gray-300">
     <Link color="primary" to="/" activeClassName="underline">
       Home
     </Link>
